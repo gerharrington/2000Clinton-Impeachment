@@ -1,16 +1,488 @@
-campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 9, \"fields\": {\"year\": 2000, \"summary\": \"42nd President William Jefferson Clinton hung his head in shame, casted into exile, brought down so low. “It was only an affair” he would say in his head over and over. Except it wasn’t. She did not say as much, going as far to insinuate it was not consensual really put him on death's door. Even the partisan politics of the time couldn’t save him.</p>And so, Albert Arnold Gore Jr, senator of Tennessee and prominent Vice President to a popular incumbent became the United States’ 43rd commander and chief. Tasked with continuing Clinton’s legacy he starts his campaign off with the public behind him, unfortunately it won’t last long as his own skeletons are poised to come out of his own closet.</p>Meanwhile, Republican Alan Keyes looks to bring america back from the brink of debauchery, reinstalling family values and strict Christian guidelines back into the culture.</p>\", \"image_url\": \"https://i.imgur.com/Y5ZTly0.png\", \"winning_electoral_vote_number\": 270, \"advisor_url\": \"/static/images/rove-brazile.jpg\", \"recommended_reading\": \"<h4 style=\\\"margin-top: 0.5em;\\\">The Florida Recount / 2000 Election</h4><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\\\" target=\\u201d_blank\\u201d>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\\\" target=\\u201d_blank\\u201d>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\\\" target=\\u201d_blank\\u201d>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\\\" target=\\u201d_blank\\u201d>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\\\" target=\\u201d_blank\\u201d>Al Gore - Earth in the Balance</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\\\" target=\\u201d_blank\\u201d>The Ralph Nader Reader</a><h4>Links</h4><a href=\\\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\\\" target=\\u201d_blank\\u201d>Digital History - The Disputed Election of 2000</a></br><a href=\\\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\\\" target=\\u201d_blank\\u201d><em>Bush v. Gore</em></a></br><a href=\\\"http://www.vanityfair.com/news/2004/10/florida-election-2000\\\" target=\\u201d_blank\\u201d>The Path to Florida</a></br><a href=\\\"http://www.historyplace.com/speeches/gore-concedes.htm\\\" target=\\u201d_blank\\u201d>Al Gore Concedes the 2000 Election</a>\", \"has_visits\": 1, \"no_electoral_majority_image\": \"/static/images/2012-no-majority.jpg\"}}]");
-campaignTrail_temp.candidate_json = JSON.parse("[{\"model\": \"campaign_trail.candidate\", \"pk\": 77, \"fields\": {\"first_name\": \"Alan L.\", \"last_name\": \"Keyes\", \"election\": 9, \"party\": \"Republican/Reform\", \"state\": \"Maryland\", \"priority\": 1, \"description\": \"Nobody expected Alan Keyes to be the standard bearer of the Republican Party. Nobody but Keyes. Had Jeb Bush not lost his governors, or if the Keating Five scandal hadn’t undermined John McCain, his party would have had more options. Better options than this neoconservative “stalking horse” who had a “foot in his mouth” disease.</p>Unlike previous Republican presidential candidates, Keyes is searching to rebrand the party from just fiscal conservatism, but also family values and addressing America’s moral decay after the fallout of Clinton’s impeachment.</p>Despite being black, Keyes starts at a disadvantage as his policies alienate people of color, such as his defense of South Africa’s apartheid regime while serving in Ronald Reagan’s cabinet. And his heated primary campaign against McCain culminated in the Arizona Senator's non-endorsement speech during the Republican National Convention.</p>\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 1, \"image_url\": \"https://i.imgur.com/k4v9sIj.png\", \"electoral_victory_message\": \"<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>\", \"electoral_loss_message\": \"<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>\", \"no_electoral_majority_message\": \"<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>\", \"description_as_running_mate\": \"''\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 78, \"fields\": {\"first_name\": \"Al\", \"last_name\": \"Gore\", \"election\": 9, \"party\": \"Democratic\", \"state\": \"Tennessee\", \"priority\": 2, \"description\": \"Al Gore achieved the nomination without breaking a sweat on his brow. The Vice President to a popular two-term incumbent President, his campaign strategists faced a unique challenge: how to navigate the lingering shadow of Bill Clinton's scandal involving the 27-year-old secretary, Monica Lewinsky.</p>In the wake of Clinton's resignation, Gore's team deliberated intensely on how to utilize the former president's influence. Clinton was a double-edged sword. His charisma and political prowess were undeniable, but so was the stain of the scandal. Gore's campaign recognized the need for a delicate balance, leveraging Clinton's popularity without allowing his indiscretions to overshadow their message.</p><p>Gore's firm stance on free trade posed a potential hurdle. This policy, while instrumental in fostering economic growth during the Clinton years, risked alienating blue-collar workers, especially in regions hit hard by industrial decline. With Ross Perot absent from the ballot, there was a palpable concern that these voters might be swayed toward the Republican camp.</p>\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 1, \"image_url\": \"https://i.imgur.com/NgdSYju.png\", \"electoral_victory_message\": \"<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>\", \"electoral_loss_message\": \"<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>\", \"no_electoral_majority_message\": \"<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>\", \"description_as_running_mate\": \"''\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 79, \"fields\": {\"first_name\": \"Ralph\", \"last_name\": \"Nader\", \"election\": 9, \"party\": \"Green\", \"state\": \"Connecticut\", \"priority\": 3, \"description\": \"<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>\", \"color_hex\": \"#00C100\", \"secondary_color_hex\": \"#A1FFA1\", \"is_active\": 0, \"image_url\": \"/static/images/ralph-nader-2000.jpg\", \"electoral_victory_message\": \"<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>\", \"electoral_loss_message\": \"<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \\\"stole\\\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>\", \"no_electoral_majority_message\": \"<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \\\"stole\\\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>\", \"description_as_running_mate\": \"''\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 80, \"fields\": {\"first_name\": \"Pat\", \"last_name\": \"Buchanan\", \"election\": 9, \"party\": \"Reform\", \"state\": \"Virginia\", \"priority\": 4, \"description\": \"''\", \"color_hex\": \"#FFFF00\", \"secondary_color_hex\": \"#FFFFC0\", \"is_active\": 0, \"image_url\": \"''\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"''\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 81, \"fields\": {\"first_name\": \"Frank\", \"last_name\": \"Keating\", \"election\": 9, \"party\": \"Republican\", \"state\": \"Oklahoma\", \"priority\": 5, \"description\": \"''\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/lPLrkkn.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"Mr. Keating is the perfect candidate if you wish to blend your neoconservative politics with Reagan-era fiscal responsibility. Keating achieved nationwide fame overseeing his state’s response to the Oklahoma City Bombing. His term as governor slashes to welfare and tax reduction, and a massive uptick in executions.</p>Keating served in the Justice Department of the Reagan administration before rising to general counsel and acting deputy secretary of Housing and Development under George H.W Bush where he oversaw further deregulation.</p><p>Keating secured $6 million in funds to assist victims and provide college scholarships for children who lost a parent, or both parents, in the attack.</p>His staunch support of the death penalty could broaden the divide between him and Gore.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 82, \"fields\": {\"first_name\": \"Zel B.\", \"last_name\": \"Miller\", \"election\": 9, \"party\": \"Democratic (Formally)\", \"state\": \"Georgia\", \"priority\": 6, \"description\": \"''\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/m5U4spU.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"If Keyes wishes to win this race, he’ll have to shore up some moderate support - of which he has none. The Clinton/Gore administrations have been popular domestically and they did so by co-opting much of the right-wing platform of deregulation, tax cuts, and a dismantling of the New Deal state. Even challenger Bob Dole was left with very little to strike Clinton on.</p>That’s where Miller comes in. Miller is open to joining your ticket as he feels the Democrats have not properly taken steps to punish Clinton for his lack of ethical conduct. Believe it or not, his past support of Segregation early on in his career might do more to help than hurt you, especially when the South isn’t so fertile for Gore as it was for Clinton. And his no-tolerance attitude towards crime only bolsters this.</p>The drawback of selecting him is Miller was an emphatic supporter of Clinton over Bush in 1992. He even delivered the keynote address at the DNC. Remarking that Bush “just doesn't get it”, and this risks alienating Republicans if not properly smoothed over.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 83, \"fields\": {\"first_name\": \"Gary\", \"last_name\": \"Bauer\", \"election\": 9, \"party\": \"Republican\", \"state\": \"Kentucky\", \"priority\": 7, \"description\": \"''\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/r6Fx55P.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"Similar to yourself, Bauer is an analog for various right-wing beliefs aligning with your own. A self-righteous, anti-abortion advocate, filled with a vigorous hatred of big government and a big believer in the U.S. Constitution being a Christian document that decries abortion.</p>Perhaps Bauer’s anti-trade rhetoric can help you in the Rust Belt, his previous statements suggest he’d cut off all trade with China if he had the power to. He is a big deregulation and tax cut advocate and served in the Ronald Reagan administration as Secretary of Education where he preached to schools to teach abstinence.</p>His major drawback of course is the fact he never held elected office and he potentially turns off moderates.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 84, \"fields\": {\"first_name\": \"John\", \"last_name\": \"Kyl\", \"election\": 9, \"party\": \"Republican\", \"state\": \"Arizona\", \"priority\": 8, \"description\": \"''\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/9cDK9lh.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"After your little stunt in South Carolina, Senator McCain wishes not to assist you on the campaign trail leaving you vulnerable in the more conservative southwestern states, notably Arizona. And with this election expected to come down to the wire, you’ll need to shore up your support.</p>Kyl is a reasonably popular figure in the party and amongst his constituents. He’s served in the Senate since 1995 and on various committees, surely going a long way in boosting your credibility by adding him to your ticket as you haven’t done much besides host a radio show.</p>But his mouth could land him into trouble as he is prone to shoot from the hip which leads to gaffes.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 85, \"fields\": {\"first_name\": \"Joe\", \"last_name\": \"Lieberman\", \"election\": 9, \"party\": \"Democratic\", \"state\": \"Connecticut\", \"priority\": 9, \"description\": \"''\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/piP0xaF.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"<p>Being an Orthodox Jew, Lieberman helps you with moderate seniors in the crucial swing state of Florida, at risk of depressing or sending your left flank to Ralph Nader. Many inside your campaign feel you have to address Bill Clinton’s infidelities, being one of the few Democrats willing to criticize the president's conduct this could help assuage voters' concerns.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 86, \"fields\": {\"first_name\": \"Bob\", \"last_name\": \"Graham\", \"election\": 9, \"party\": \"Democratic\", \"state\": \"Florida\", \"priority\": 10, \"description\": \"''\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/equIqg1.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"<p>Graham is a bright, experienced statesman from Florida serving as the state’s governor. His bread and butter is his focus on revitalizing the state on the issues of education, and the environment. This is in lockstep with your campaign aims and could bridge the gap between you and your more liberal base.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 87, \"fields\": {\"first_name\": \"Jeanne\", \"last_name\": \"Shaheen\", \"election\": 9, \"party\": \"Democratic\", \"state\": \"New Hampshire\", \"priority\": 11, \"description\": \"''\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/xgYMGyx.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"<p>A two-term governor from the small, but potentially crucial state of New Hampshire, she was one of the most influential Democrats to take a “No-New-Taxes” pledge to combat Newt Gingrich’s “Contract With America” appeal.</p><p>She’ll help you with women, a demographic Democrats are concerned with heading into this election, but won’t help you much in swing states like Florida.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 89, \"fields\": {\"first_name\": \"Winona\", \"last_name\": \"LaDuke\", \"election\": 9, \"party\": \"Green\", \"state\": \"Minnesota\", \"priority\": 13, \"description\": \"''\", \"color_hex\": \"#00C100\", \"secondary_color_hex\": \"#A1FFA1\", \"is_active\": 0, \"image_url\": \"/static/images/winona-laduke-2000.jpg\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"<p>Winona LaDuke is a Native American activist of Ojibwe ancestry. She lives in Minnesota and has been active in attempts to regain land that once belonged to various American Indian tribes. She has written a book and started organizations in support of this issue.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 90, \"fields\": {\"first_name\": \"Ezola\", \"last_name\": \"Foster\", \"election\": 9, \"party\": \"Reform\", \"state\": \"California\", \"priority\": 14, \"description\": \"''\", \"color_hex\": \"#FFFF00\", \"secondary_color_hex\": \"#FFFFC0\", \"is_active\": 0, \"image_url\": \"''\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"''\", \"candidate_score\": 0.0}}]");
-campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 47, \"fields\": {\"candidate\": 70, \"running_mate\": 76}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 56, \"fields\": {\"candidate\": 79, \"running_mate\": 89}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 76, \"fields\": {\"candidate\": 116, \"running_mate\": 120}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 106, \"fields\": {\"candidate\": 155, \"running_mate\": 164}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 105, \"fields\": {\"candidate\": 154, \"running_mate\": 163}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 81, \"fields\": {\"candidate\": 118, \"running_mate\": 125}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 66, \"fields\": {\"candidate\": 93, \"running_mate\": 103}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 82, \"fields\": {\"candidate\": 119, \"running_mate\": 126}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 97, \"fields\": {\"candidate\": 145, \"running_mate\": 151}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 96, \"fields\": {\"candidate\": 144, \"running_mate\": 150}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 46, \"fields\": {\"candidate\": 69, \"running_mate\": 73}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 67, \"fields\": {\"candidate\": 94, \"running_mate\": 104}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 207, \"fields\": {\"candidate\": 302, \"running_mate\": 311}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 205, \"fields\": {\"candidate\": 301, \"running_mate\": 309}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 200, \"fields\": {\"candidate\": 300, \"running_mate\": 304}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 7, \"fields\": {\"candidate\": 18, \"running_mate\": 38}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 8, \"fields\": {\"candidate\": 19, \"running_mate\": 39}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 74, \"fields\": {\"candidate\": 107, \"running_mate\": 114}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 161, \"fields\": {\"candidate\": 203, \"running_mate\": 215}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 160, \"fields\": {\"candidate\": 202, \"running_mate\": 214}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 208, \"fields\": {\"candidate\": 303, \"running_mate\": 312}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 116, \"fields\": {\"candidate\": 168, \"running_mate\": 178}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 57, \"fields\": {\"candidate\": 80, \"running_mate\": 90}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 115, \"fields\": {\"candidate\": 167, \"running_mate\": 177}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 16, \"running_mate\": 30}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 87, \"fields\": {\"candidate\": 131, \"running_mate\": 135}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 94, \"fields\": {\"candidate\": 143, \"running_mate\": 148}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 89, \"fields\": {\"candidate\": 132, \"running_mate\": 137}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 155, \"fields\": {\"candidate\": 201, \"running_mate\": 209}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 3, \"fields\": {\"candidate\": 17, \"running_mate\": 31}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 92, \"fields\": {\"candidate\": 142, \"running_mate\": 146}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 48, \"fields\": {\"candidate\": 77, \"running_mate\": 81}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 22, \"fields\": {\"candidate\": 20, \"running_mate\": 45}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 41, \"fields\": {\"candidate\": 25, \"running_mate\": 62}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 68, \"fields\": {\"candidate\": 105, \"running_mate\": 108}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 26, \"fields\": {\"candidate\": 21, \"running_mate\": 49}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 77, \"fields\": {\"candidate\": 117, \"running_mate\": 121}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 33, \"fields\": {\"candidate\": 23, \"running_mate\": 55}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 150, \"fields\": {\"candidate\": 200, \"running_mate\": 204}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 37, \"fields\": {\"candidate\": 24, \"running_mate\": 58}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 52, \"fields\": {\"candidate\": 78, \"running_mate\": 85}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 45, \"fields\": {\"candidate\": 68, \"running_mate\": 72}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 44, \"fields\": {\"candidate\": 67, \"running_mate\": 71}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 18, \"fields\": {\"candidate\": 36, \"running_mate\": 18}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 101, \"fields\": {\"candidate\": 153, \"running_mate\": 159}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 62, \"fields\": {\"candidate\": 92, \"running_mate\": 99}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 71, \"fields\": {\"candidate\": 106, \"running_mate\": 111}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 98, \"fields\": {\"candidate\": 152, \"running_mate\": 156}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 13, \"fields\": {\"candidate\": 29, \"running_mate\": 27}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 12, \"fields\": {\"candidate\": 27, \"running_mate\": 29}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 58, \"fields\": {\"candidate\": 91, \"running_mate\": 95}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 99, \"fields\": {\"candidate\": 152, \"running_mate\": 157}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 63, \"fields\": {\"candidate\": 92, \"running_mate\": 100}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 83, \"fields\": {\"candidate\": 67, \"running_mate\": 127}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 107, \"fields\": {\"candidate\": 165, \"running_mate\": 169}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 111, \"fields\": {\"candidate\": 166, \"running_mate\": 173}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 85, \"fields\": {\"candidate\": 68, \"running_mate\": 129}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 59, \"fields\": {\"candidate\": 91, \"running_mate\": 96}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 15, \"fields\": {\"candidate\": 29, \"running_mate\": 40}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 60, \"fields\": {\"candidate\": 91, \"running_mate\": 97}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 108, \"fields\": {\"candidate\": 165, \"running_mate\": 170}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 109, \"fields\": {\"candidate\": 165, \"running_mate\": 171}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 112, \"fields\": {\"candidate\": 166, \"running_mate\": 174}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 113, \"fields\": {\"candidate\": 166, \"running_mate\": 175}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 73, \"fields\": {\"candidate\": 106, \"running_mate\": 113}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 10, \"fields\": {\"candidate\": 27, \"running_mate\": 40}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 53, \"fields\": {\"candidate\": 78, \"running_mate\": 86}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 110, \"fields\": {\"candidate\": 165, \"running_mate\": 172}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 102, \"fields\": {\"candidate\": 153, \"running_mate\": 160}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 34, \"fields\": {\"candidate\": 23, \"running_mate\": 44}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 9, \"fields\": {\"candidate\": 27, \"running_mate\": 33}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 69, \"fields\": {\"candidate\": 105, \"running_mate\": 109}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 19, \"fields\": {\"candidate\": 36, \"running_mate\": 41}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 20, \"fields\": {\"candidate\": 36, \"running_mate\": 42}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 151, \"fields\": {\"candidate\": 200, \"running_mate\": 205}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 16, \"fields\": {\"candidate\": 29, \"running_mate\": 33}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 49, \"fields\": {\"candidate\": 77, \"running_mate\": 82}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 103, \"fields\": {\"candidate\": 153, \"running_mate\": 161}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 93, \"fields\": {\"candidate\": 142, \"running_mate\": 147}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 72, \"fields\": {\"candidate\": 106, \"running_mate\": 112}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 54, \"fields\": {\"candidate\": 78, \"running_mate\": 87}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 84, \"fields\": {\"candidate\": 67, \"running_mate\": 128}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 61, \"fields\": {\"candidate\": 91, \"running_mate\": 98}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 78, \"fields\": {\"candidate\": 117, \"running_mate\": 122}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 43, \"fields\": {\"candidate\": 25, \"running_mate\": 64}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 42, \"fields\": {\"candidate\": 25, \"running_mate\": 63}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 40, \"fields\": {\"candidate\": 24, \"running_mate\": 61}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 39, \"fields\": {\"candidate\": 24, \"running_mate\": 60}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 86, \"fields\": {\"candidate\": 68, \"running_mate\": 130}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 38, \"fields\": {\"candidate\": 24, \"running_mate\": 59}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 95, \"fields\": {\"candidate\": 143, \"running_mate\": 149}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 30, \"fields\": {\"candidate\": 21, \"running_mate\": 51}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 28, \"fields\": {\"candidate\": 21, \"running_mate\": 50}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 100, \"fields\": {\"candidate\": 152, \"running_mate\": 158}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 24, \"fields\": {\"candidate\": 20, \"running_mate\": 47}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 17, \"fields\": {\"candidate\": 29, \"running_mate\": 31}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 11, \"fields\": {\"candidate\": 27, \"running_mate\": 31}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 79, \"fields\": {\"candidate\": 117, \"running_mate\": 123}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 80, \"fields\": {\"candidate\": 117, \"running_mate\": 124}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 90, \"fields\": {\"candidate\": 132, \"running_mate\": 138}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 4, \"fields\": {\"candidate\": 17, \"running_mate\": 32}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 2, \"fields\": {\"candidate\": 16, \"running_mate\": 34}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 25, \"fields\": {\"candidate\": 20, \"running_mate\": 48}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 104, \"fields\": {\"candidate\": 153, \"running_mate\": 162}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 23, \"fields\": {\"candidate\": 20, \"running_mate\": 46}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 36, \"fields\": {\"candidate\": 23, \"running_mate\": 57}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 88, \"fields\": {\"candidate\": 131, \"running_mate\": 136}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 70, \"fields\": {\"candidate\": 105, \"running_mate\": 110}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 152, \"fields\": {\"candidate\": 200, \"running_mate\": 206}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 153, \"fields\": {\"candidate\": 200, \"running_mate\": 207}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 154, \"fields\": {\"candidate\": 200, \"running_mate\": 208}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 157, \"fields\": {\"candidate\": 201, \"running_mate\": 211}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 159, \"fields\": {\"candidate\": 201, \"running_mate\": 213}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 64, \"fields\": {\"candidate\": 92, \"running_mate\": 101}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 6, \"fields\": {\"candidate\": 17, \"running_mate\": 37}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 5, \"fields\": {\"candidate\": 17, \"running_mate\": 33}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 35, \"fields\": {\"candidate\": 23, \"running_mate\": 56}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 91, \"fields\": {\"candidate\": 132, \"running_mate\": 139}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 21, \"fields\": {\"candidate\": 36, \"running_mate\": 43}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 50, \"fields\": {\"candidate\": 77, \"running_mate\": 83}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 32, \"fields\": {\"candidate\": 21, \"running_mate\": 53}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 31, \"fields\": {\"candidate\": 21, \"running_mate\": 52}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 158, \"fields\": {\"candidate\": 201, \"running_mate\": 212}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 156, \"fields\": {\"candidate\": 201, \"running_mate\": 210}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 75, \"fields\": {\"candidate\": 106, \"running_mate\": 115}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 65, \"fields\": {\"candidate\": 92, \"running_mate\": 102}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 51, \"fields\": {\"candidate\": 77, \"running_mate\": 84}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 201, \"fields\": {\"candidate\": 300, \"running_mate\": 305}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 210, \"fields\": {\"candidate\": 300, \"running_mate\": 314}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 209, \"fields\": {\"candidate\": 300, \"running_mate\": 313}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 202, \"fields\": {\"candidate\": 300, \"running_mate\": 306}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 203, \"fields\": {\"candidate\": 300, \"running_mate\": 307}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 204, \"fields\": {\"candidate\": 300, \"running_mate\": 308}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 206, \"fields\": {\"candidate\": 301, \"running_mate\": 310}}]");
-campaignTrail_temp.opponents_default_json = JSON.parse("[{\"election\": 9, \"candidates\": [77, 78, 79, 80]}]");
-campaignTrail_temp.opponents_weighted_json = JSON.parse("[{\"election\": 9, \"candidates\": [78, 77, 79, 80]}]");        
-campaignTrail_temp.difficulty_level_json = JSON.parse("[{\"model\": \"campaign_trail.difficulty_level\", \"pk\": 1, \"fields\": {\"name\": \"Easy\", \"multiplier\": 1.1}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 3, \"fields\": {\"name\": \"Normal\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 4, \"fields\": {\"name\": \"Hard\", \"multiplier\": 0.95}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 5, \"fields\": {\"name\": \"Impossible\", \"multiplier\": 0.9}}]");
-campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.12, \"start_point\": 0.94, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.01, \"state_variance\": 0.005, \"question_count\": 25, \"default_map_color_hex\": \"#C9C9C9\", \"no_state_map_color_hex\": \"#999999\"}}]");
-campaignTrail_temp.candidate_dropout_json = JSON.parse("[{\"model\": \"campaign_trail.candidate_dropout\", \"pk\": 1, \"fields\": {\"candidate\": 36, \"affected_candidate\": 18, \"probability\": 1.0}}]");
-campaignTrail_temp.temp_election_list = [{"id": 9, "year": 2000, "is_premium": 0, "display_year": "2000"}];
-campaignTrail_temp.show_premium = true;
-campaignTrail_temp.premier_ab_test_version = -1;
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "42nd President William Jefferson Clinton hung his head in shame, casted into exile, brought down so low. “It was only an affair” he would say in his head over and over. Except it wasn’t. She did not say as much, going as far to insinuate it was not consensual really put him on death's door. Even the partisan politics of the time couldn’t save him.</p>And so, Albert Arnold Gore Jr, senator of Tennessee and prominent Vice President to a popular incumbent became the United States’ 43rd commander and chief. Tasked with continuing Clinton’s legacy he starts his campaign off with the public behind him, unfortunately it won’t last long as his own skeletons are poised to come out of his own closet.</p>Meanwhile, Republican Alan Keyes looks to bring america back from the brink of debauchery, reinstalling family values and strict Christian guidelines back into the culture.</p>",
+            "image_url": "https://i.imgur.com/Y5ZTly0.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/rove-brazile.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2000"
+        }
+    }
+]
 
-e=campaignTrail_temp
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Alan L.",
+            "last_name": "Keyes",
+            "election": 9,
+            "party": "Republican/Reform",
+            "state": "Maryland",
+            "priority": 1,
+            "description": "<p>Nobody expected Alan Keyes to be the standard bearer of the Republican Party. Nobody but Keyes. Had Jeb Bush not lost his governors, or if the Keating Five scandal hadn’t undermined John McCain, his party would have had more options. Better options than this neoconservative “stalking horse” who had a “foot in his mouth” disease.</p><p>\nUnlike previous Republican presidential candidates, Keyes is searching to rebrand the party from just fiscal conservatism, but also family values and addressing America’s moral decay after the fallout of Clinton’s impeachment.</p> <p>Despite being black, Keyes starts at a disadvantage as his policies alienate people of color, such as his defense of South Africa’s apartheid regime while serving in Ronald Reagan’s cabinet. And his heated primary campaign against McCain culminated in the Arizona Senator's non-endorsement speech during the Republican National Convention.</p>",
+            "color_hex": "#c22424",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/k4v9sIj.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "Al",
+            "last_name": "Gore",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Tennessee",
+            "priority": 2,
+            "description": "<p>Al Gore achieved the nomination without breaking a sweat on his brow. The Vice President to a popular two-term incumbent President, his campaign strategists faced a unique challenge: how to navigate the lingering shadow of Bill Clinton's scandal involving the 27-year-old secretary, Monica Lewinsky.\n</p>In the wake of Clinton's resignation, Gore's team deliberated intensely on how to utilize the former president's influence. Clinton was a double-edged sword. His charisma and political prowess were undeniable, but so was the stain of the scandal. Gore's campaign recognized the need for a delicate balance, leveraging Clinton's popularity without allowing his indiscretions to overshadow their message.\n</p>Gore's firm stance on free trade posed a potential hurdle. This policy, while instrumental in fostering economic growth during the Clinton years, risked alienating blue-collar workers, especially in regions hit hard by industrial decline. With Ross Perot absent from the ballot, there was a palpable concern that these voters might be swayed toward the Republican camp.</p>\n\n",
+            "color_hex": "#6969dd",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/NgdSYju.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "Ralph",
+            "last_name": "Nader",
+            "election": 9,
+            "party": "Green",
+            "state": "Connecticut",
+            "priority": 3,
+            "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ralph-nader-2000.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "Pat",
+            "last_name": "Buchanan",
+            "election": 9,
+            "party": "Reform",
+            "state": "Virginia",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Frank",
+            "last_name": "Keating",
+            "election": 9,
+            "party": "Republican",
+            "state": "Oklahoma",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/lPLrkkn.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Mr. Keating is the perfect candidate if you wish to blend your neoconservative politics with Reagan-era fiscal responsibility. Keating achieved nationwide fame overseeing his state’s response to the Oklahoma City Bombing. His term as governor slashes to welfare and tax reduction, and a massive uptick in executions.\n</p><p>Keating served in the Justice Department of the Reagan administration before rising to general counsel and acting deputy secretary of Housing and Development under George H.W Bush where he oversaw further deregulation.</p>Keating secured $6 million in funds to assist victims and provide college scholarships for children who lost a parent, or both parents, in the attack.</p>His staunch support of the death penalty could broaden the divide between him and Gore.</p>\n\n\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 82,
+        "fields": {
+            "first_name": "Zel B. ",
+            "last_name": "Miller",
+            "election": 9,
+            "party": "Democratic (Formally)",
+            "state": "Georgia",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/m5U4spU.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>If Keyes wishes to win this race, he’ll have to shore up some moderate support - of which he has none. The Clinton/Gore administrations have been popular domestically and they did so by co-opting much of the right-wing platform of deregulation, tax cuts, and a dismantling of the New Deal state. Even challenger Bob Dole was left with very little to strike Clinton on.</p>That’s where Miller comes in. Miller is open to joining your ticket as he feels the Democrats have not properly taken steps to punish Clinton for his lack of ethical conduct. Believe it or not, his past support of Segregation early on in his career might do more to help than hurt you, especially when the South isn’t so fertile for Gore as it was for Clinton. And his no-tolerance attitude towards crime only bolsters this.</p>The drawback of selecting him is Miller was an emphatic supporter of Clinton over Bush in 1992. He even delivered the keynote address at the DNC. Remarking that Bush “just doesn't get it”, and this risks alienating Republicans if not properly smoothed over.\n\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 83,
+        "fields": {
+            "first_name": "Gary ",
+            "last_name": "Bauer",
+            "election": 9,
+            "party": "Republican",
+            "state": "Kentucky",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/r6Fx55P.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Similar to yourself, Bauer is an analog for various right-wing beliefs aligning with your own. A self-righteous, anti-abortion advocate, filled with a vigorous hatred of big government and a big believer in the U.S. Constitution being a Christian document that decries abortion.\n</p>Perhaps Bauer’s anti-trade rhetoric can help you in the Rust Belt, his previous statements suggest he’d cut off all trade with China if he had the power to. He is a big deregulation and tax cut advocate and served in the Ronald Reagan administration as Secretary of Education where he preached to schools to teach abstinence.</p>His major drawback of course is the fact he never held elected office and he potentially turns off moderates.\n\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 84,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Kyl",
+            "election": 9,
+            "party": "Republican",
+            "state": "Arizona",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/9cDK9lh.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>After your little stunt in South Carolina, Senator McCain wishes not to assist you on the campaign trail leaving you vulnerable in the more conservative southwestern states, notably Arizona. And with this election expected to come down to the wire, you’ll need to shore up your support.\n</p>Kyl is a reasonably popular figure in the party and amongst his constituents. He’s served in the Senate since 1995 and on various committees, surely going a long way in boosting your credibility by adding him to your ticket as you haven’t done much besides host a radio show.</p>But his mouth could land him into trouble as he is prone to shoot from the hip which leads to gaffes.\n\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Lieberman",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Connecticut",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/piP0xaF.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Being an Orthodox Jew, Lieberman helps you with moderate seniors in the crucial swing state of Florida, at risk of depressing or sending your left flank to Ralph Nader. Many inside your campaign feel you have to address Bill Clinton’s infidelities, being one of the few Democrats willing to criticize the president's conduct this could help assuage voters' concerns.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 86,
+        "fields": {
+            "first_name": "Bob",
+            "last_name": "Graham",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Florida",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/equIqg1.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Graham is a bright, experienced statesman from Florida serving as the state’s governor. His bread and butter is his focus on revitalizing the state on the issues of education, and the environment. This is in lockstep with your campaign aims and could bridge the gap between you and your more liberal base.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 87,
+        "fields": {
+            "first_name": "Jeanne",
+            "last_name": "Shaheen",
+            "election": 9,
+            "party": "Democrat",
+            "state": "New Hampshire",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/xgYMGyx.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>A two-term governor from the small, but potentially crucial state of New Hampshire, she was one of the most influential Democrats to take a “No-New-Taxes” pledge to combat Newt Gingrich’s “Contract With America” appeal.</p>She’ll help you with women, a demographic Democrats are concerned with heading into this election, but won’t help you much in swing states like Florida.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Winona",
+            "last_name": "LaDuke",
+            "election": 9,
+            "party": "Green",
+            "state": "Minnesota",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/winona-laduke-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Winona LaDuke is a Native American activist of Ojibwe ancestry. She lives in Minnesota and has been active in attempts to regain land that once belonged to various American Indian tribes. She has written a book and started organizations in support of this issue.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "Ezola",
+            "last_name": "Foster",
+            "election": 9,
+            "party": "Reform",
+            "state": "California",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
 
-e.credits = "DarkNinja_PS5,Hopefulmisery,"
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 57,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 90
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 52,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 85
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 53,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 86
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 49,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 82
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 54,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 87
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 50,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 83
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 51,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 84
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 97486,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 89
+        }
+    }
+]
 
+campaignTrail_temp.credits = "DarkNinja_PS5,Hopefulmisery,"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 26,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "2000"
+    }
+]
+
+jet_data = {
+    "headerColor": "#020070",
+    "windowColor": "#f88c8c",
+    "containerColor": "#c2daf4",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#020070";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#f88c8c";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#c2daf4";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+
+//#endcode
